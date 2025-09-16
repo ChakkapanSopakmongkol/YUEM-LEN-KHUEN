@@ -5,7 +5,7 @@ import Forgetpass from './pages/Forgetpass';
 import Systemyum from './pages/Systemyum';
 import Member from './pages/Member';
 import Home from './pages/Home';
-import Yuem from './pages/Yuem.';
+import Yuem from 'pages/Yuem';
 import Yunyan from './pages/Yunyan';
 import Status from './pages/Status';
 import Stus from './pages/Stus';
