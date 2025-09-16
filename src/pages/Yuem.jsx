@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 import "../styles/global.css";
-import {UseState} from "react";
+import {useState} from "react";
 
-function yuem() {
-    const [formData, setFormData] = UseState({
+function Yuem() {
+    const [formData, setFormData] = useState({
     type: "",
     quantity: 1,
     borrowTime: "",
@@ -183,4 +183,4 @@ function yuem() {
     </>
   )
 }
-export default yuem;
+export default Yuem;
