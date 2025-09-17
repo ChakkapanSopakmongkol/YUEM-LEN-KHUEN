@@ -73,7 +73,7 @@ function Forgetpass() {
                             <p>รหัสผ่านใหม่จะมีผลทันทีหลังการบันทึก</p>
                         </div>
                         <div className="ml-17 -mt-2">
-                            <Link to="/Systemyum">
+                            <Link to="/logindata">
                                 <button type="submit" className="px-2 py-1 border-2 border-[#62C538] rounded-2xl hover:bg-[#62C538] text-[16px] text-[rgb(137,220,101)]">
                                     <p>บันทึกรหัสผ่านใหม่</p>
                                 </button>
