@@ -10,6 +10,7 @@ import Yunyan from './pages/Yunyan';
 import Status from './pages/Status';
 import Stus from './pages/Stus';
 import Khuen from './pages/Khuen';
+import Khuenyun from './pages/Khuenyun';
 
 const App = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const App = createBrowserRouter([
   {
     path: "/Khuen",
     element: <Khuen/>
+  },
+  {
+    path: "/Khuenyun",
+    element: <Khuenyun/>
   }
 ])
 

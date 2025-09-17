@@ -20,9 +20,11 @@ function Khuen() {
                 <h1 className="text-[#ffffff] text-[24px] font-extrabold mt-5">กรอกข้อมูลของคุณ</h1>
                 <input className="bg-white rounded-2xl w-90 pl-2 text-[20px]" type="text" placeholder="รหัสนักเรียน"/>
                 <input className="bg-white rounded-2xl w-90 pl-2 mt-3 text-[20px]" type="text" placeholder="เบอร์โทรศัพท์"/>
+                <Link to="#">
                 <button type="button" className="border-2 border-[#62C538] rounded-3xl w-40 mt-5 text-white text-[20px] ml-25 hover:bg-[#a7f088]">
                     <p>ยืนยันการคืน</p>
                 </button>
+                </Link>
             </div>
         </div>
     </div>

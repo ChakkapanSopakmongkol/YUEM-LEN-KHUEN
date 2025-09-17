@@ -63,7 +63,30 @@ function Status() {
     </div>
     <div className="relative">
         <img className="w-full h-full blur-sm" src="./images/g1.png" alt="" />
-        <h1 className="absolute z-10 -mt-130 ml-140 text-white text-[34px] font-extrabold">ขณะนี้ยังไม่มีรายการยืมอุปกรณ์</h1>
+        <div className="absolute w-360 h-190 bg-white/40 -mt-200 ml-10 rounded-2xl">
+            <div className="flex ml-10 mt-5 gap-38">
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">ชื่อ-สกุล</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">อุปกรณ์</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">เวลา</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">สถานะ</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">รายละเอียด</h1>
+                <Link to="/Khuen">
+                <h1 className="text-[20px] text-white font-extrabold bg-amber-300 pl-3 pr-3 pt-1 rounded-xl shadow-md hover:bg-amber-200 border border-white">ปุ่มคืนอุปกรณ์</h1>
+                </Link>
+            </div>
+        </div>
+        <div className="absolute -mt-180 ml-20 w-340 h-px bg-white/70"></div>
+        <div className="absolute -mt-178 ml-20 w-340 h-10 bg-white">
+            <div className="flex">
+                <h1 className="mt-2 ml-2">นายธีรศล เชื้อคำฮด</h1>
+                <h1 className="mt-2 ml-2 pl-28">ฟุตบอล</h1>
+                <h1 className="mt-2 ml-2 pl-46">14:00</h1>
+                <h1 className="mt-2 ml-2 pl-42 text-[#E35050]">ยังไม่คืน</h1>
+                <Link to="/Stus">
+                <img className="w-6 pt-3 ml-43" src="./images/ta.png" alt="" />
+                </Link>
+            </div>
+        </div>
     </div>
     </>
   )
