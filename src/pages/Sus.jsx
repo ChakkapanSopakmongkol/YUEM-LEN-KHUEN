@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import "../styles/global.css"
-
-function Stus() {
+// คืนสำเร็จ
+function Sus() {
   return (
     <>
     <div className="sticky top-0 z-50 flex items-center justify-between bg-[white] shadow px-6 py-3">
@@ -63,17 +63,32 @@ function Stus() {
     </div>
     <div className="relative">
         <img className="w-full h-full blur-sm" src="./images/g1.png" alt="" />
-        <img className="absolute z-10 w-100 h-140 -mt-205 ml-140 rounded-2xl" src="./images/sa.png" alt="" />
-            <div className="flex absolute -mt-60 ml-139.5 gap-20">
-                <border type="button" className="w-40 h-10 bg-[#62C538] rounded-3xl pl-11.5 pt-2 text-white">
-                    <p>บันทึกสลิป</p>
-                </border>
-                <border type="button" className="w-40 h-10 bg-white rounded-3xl pl-8.5 pt-2 text-[#E35050]">
-                    <p>ยกเลิกการยืม</p>
-                </border>
+        <div className="absolute w-360 h-190 bg-white/40 -mt-200 ml-10 rounded-2xl">
+            <div className="flex ml-10 mt-5 gap-38">
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">ชื่อ-สกุล</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">อุปกรณ์</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">เวลา</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">สถานะ</h1>
+                <h1 className="text-[20px] text-white font-extrabold bg-[#62C538] pl-3 pr-3 pt-1 rounded-2xl">รายละเอียด</h1>
+                <Link to="/Khuen">
+                <h1 className="text-[20px] text-white font-extrabold bg-amber-300 pl-3 pr-3 pt-1 rounded-xl shadow-md hover:bg-amber-200 border border-white">ปุ่มคืนอุปกรณ์</h1>
+                </Link>
             </div>
+        </div>
+        <div className="absolute -mt-180 ml-20 w-340 h-px bg-white/70"></div>
+        <div className="absolute -mt-178 ml-20 w-340 h-10 bg-white">
+            <div className="flex">
+                <h1 className="mt-2 ml-2">นายธีรศล เชื้อคำฮด</h1>
+                <h1 className="mt-2 ml-2 pl-28">ฟุตบอล</h1>
+                <h1 className="mt-2 ml-2 pl-46">14:00</h1>
+                <h1 className="mt-2 ml-2 pl-42 text-[#62C538]">คืนแล้ว</h1>
+                <Link to="/Stus">
+                <img className="w-6 pt-3 ml-45" src="./images/ta.png" alt="" />
+                </Link>
+            </div>
+        </div>
     </div>
     </>
   )
 }
-export default Stus;
+export default Sus;

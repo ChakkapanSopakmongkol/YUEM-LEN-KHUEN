@@ -195,7 +195,7 @@ function Yunyan() {
                         <p>ยกเลิก</p>
                     </button>
                     </Link>
-                    <Link to="/Stus"> 
+                    <Link to="/Status"> 
                     <button type="button" className="border pl-5 pr-5 border-[#62C538] text-[#62C538] rounded-3xl hover:bg-[#a7f088]">
                         <p>ยืนยัน</p>
                     </button>

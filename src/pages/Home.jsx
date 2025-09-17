@@ -44,7 +44,7 @@ useEffect(() => {
                         <h1 className="relative after:absolute after:left-0 after:-bottom-1 border-white border-b-2 hover:border-green-600 pt-1">หน้าหลัก</h1>
                     </Link>
                     <div className="h-9 w-[1px] bg-[#BDBDBD]"></div>
-                    <Link to="/Status">
+                    <Link to="/Ss">
                         <h1 className="relative after:absolute after:left-0 after:-bottom-1 border-white border-b-2 hover:border-green-600 pt-1">การยืมของคุณ</h1>
                     </Link>
                     <div className="h-9 w-[1px] bg-[#BDBDBD]"></div>
